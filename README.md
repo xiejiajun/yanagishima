@@ -29,6 +29,7 @@ cd yanagishima-[version]
 vim config/application.yml
 nohup bin/yanagishima-start.sh >y.log 2>&1 &
 ```
+- ./gradlew build distTar -x test
 see http://localhost:8080/
 
 # Stop
